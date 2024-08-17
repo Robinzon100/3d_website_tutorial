@@ -1,0 +1,29 @@
+.button_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .8rem 2.8rem;
+    box-shadow: 0px 100px 92px 0px rgba(4, 58, 88, 0.29), 0px 46.233px 42.534px 0px rgba(4, 58, 88, 0.22), 0px 26.453px 24.337px 0px rgba(4, 58, 88, 0.18), 0px 16.057px 14.773px 0px rgba(4, 58, 88, 0.16), 0px 9.675px 8.901px 0px rgba(4, 58, 88, 0.13), 0px 5.388px 4.957px 0px rgba(4, 58, 88, 0.11), 0px 2.317px 2.132px 0px rgba(4, 58, 88, 0.07);
+    border-radius: 15px;
+    background-color: white;
+    border: 1.5px solid #e1e1e1;
+    
+    @media screen and (max-width: 768px) {
+        padding: .6rem 1.8rem;
+        width: 100%;
+    }
+    
+    
+    .text {
+        font-size: 1.7rem;
+        color: #263346;
+    }
+}
+
+.btn_version_ghost {
+    background: none;
+    box-shadow: none;
+    border: none;
+}

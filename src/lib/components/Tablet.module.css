@@ -1,0 +1,42 @@
+.tablet_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: .4rem 0rem .4rem .6rem ;
+    border-radius: 14px;
+    border: 2.5px solid #8E9BAE;
+    font-size: 1.3rem;
+    gap: 1.2rem;
+    
+    @media screen and (max-width: 768px) {
+        font-size: 1rem;
+    }
+
+    .tablet_tag {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: .4rem;
+        padding: 0 1.3rem 0 .4rem;
+        background-color: white;
+        border-radius: 10px;
+        white-space: nowrap;
+        border: 3px solid #e1e1e1;
+    }
+    
+    .tablet_content {
+        display: flex;
+        flex-direction: row;
+        margin: 0 .5rem;
+        gap: 1rem;
+        
+        .tablet_arrow_icon {
+            scale: .6; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

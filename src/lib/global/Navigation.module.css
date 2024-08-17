@@ -1,0 +1,11 @@
+.navigation_main {
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: calc(2.2vw + 2.2rem) 0 calc(2.2vw + 2.2rem) calc(5.55vw + 5.55rem);
+    
+}
